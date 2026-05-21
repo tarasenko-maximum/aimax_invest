@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIMAX — Инвестиционное предложение</title>
+    <meta name="description" content="Инвестиционное предложение B2B AI-стартапа AIMAX: гибридная платформа автоматизации МСБ и крупного бизнеса. Раунд €200,000 за 5% доли.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Effects -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-container">
+                <span class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                <span class="logo-text">AI<span class="text-accent">MAX</span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="#hero" class="nav-item active" data-sec="hero">Старт</a>
+                <a href="#traction" class="nav-item" data-sec="traction">Метрики</a>
+                <a href="#offer" class="nav-item" data-sec="offer">Предложение</a>
+                <a href="#positioning" class="nav-item" data-sec="positioning">Рынок</a>
+                <a href="#allocation" class="nav-item" data-sec="allocation">Бюджет</a>
+                <a href="#guarantees" class="nav-item" data-sec="guarantees">Гарантии</a>
+                <a href="#roadmap" class="nav-item" data-sec="roadmap">Таймлайн</a>
+                <a href="#contacts" class="nav-item" data-sec="contacts">Команда</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#offer" class="btn btn-sm btn-accent-glow">€200K Deal</a>
+            </div>
+        </div>
+        <!-- Scroll Progress Bar -->
+        <div class="scroll-progress-container">
+            <div class="scroll-progress-fill" id="scroll-progress"></div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="landing-container">
+        
+        <!-- 1. Hero Section -->
+        <section id="hero" class="section hero-section">
+            <div class="container hero-container">
+                <div class="hero-text-content fade-in-up">
+                    <div class="badge accent-bg">Инвестиционный оффер 2026</div>
+                    <h1 class="main-title">Инвестируйте в AIMAX:<br><span class="gradient-text">Прибыльный AI-стартап</span></h1>
+                    <p class="subtitle">Гибридная платформа (Vertical AI + No-code) для автоматизации малого, среднего и крупного бизнеса. Подтвержденный рынком продукт с высокой маржинальностью.</p>
+                    <div class="hero-actions">
+                        <a href="#offer" class="btn btn-lg btn-primary">Изучить структуру сделки</a>
+                        <a href="#traction" class="btn btn-lg btn-outline">Посмотреть показатели</a>
+                    </div>
+                </div>
+
+                <div class="hero-stats-grid fade-in-up delay-200">
+                    <div class="glass-card stat-card main-stat">
+                        <span class="stat-lbl">Инвестиционный раунд</span>
+                        <span class="stat-val text-accent">€200 000</span>
+                        <span class="stat-desc">Вход траншами под развитие ЕС и США</span>
+                    </div>
+                    <div class="glass-card stat-card">
+                        <span class="stat-lbl">Доля инвестора</span>
+                        <span class="stat-val">5%</span>
+                        <span class="stat-desc">Доля в Delaware C-Corp (США)</span>
+                    </div>
+                    <div class="glass-card stat-card">
+                        <span class="stat-lbl">Оценка бизнеса</span>
+                        <span class="stat-val">€3.8M</span>
+                        <span class="stat-desc">Pre-money оценка холдинга</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Traction Section -->
+        <section id="traction" class="section traction-section">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-tag">Метрики и статус</span>
+                    <h2>Статус на апрель 2026: <span class="text-success">Мы уже в плюсе</span></h2>
+                    <p class="section-desc">Ключевые операционные показатели и финансовая стабильность стартапа на основе фактических данных за 8 месяцев</p>
+                </div>
+
+                <div class="traction-dashboard mt-6 fade-in-up delay-200">
+                    <div class="grid-3">
+                        <!-- Stat 1 -->
+                        <div class="glass-card metric-card">
+                            <div class="metric-icon cyan"><i class="fa-solid fa-users"></i></div>
+                            <div class="metric-info">
+                                <span class="num">20</span>
+                                <span class="lbl">Активных клиентов</span>
+                            </div>
+                            <p class="card-text">B2B клиенты из 5 стран (Россия, Сербия, Германия, ОАЭ, Таиланд) с общей суммой контрактов €101 451.</p>
+                        </div>
+                        <!-- Stat 2 -->
+                        <div class="glass-card metric-card">
+                            <div class="metric-icon violet"><i class="fa-solid fa-rotate"></i></div>
+                            <div class="metric-info">
+                                <span class="num">€7 700</span>
+                                <span class="lbl">Текущий MRR</span>
+                            </div>
+                            <p class="card-text">Ежемесячная регулярная выручка ($8 396) от подписок клиентов Esnad, Payde, NeuroPublisher.</p>
+                        </div>
+                        <!-- Stat 3 -->
+                        <div class="glass-card metric-card">
+                            <div class="metric-icon green"><i class="fa-solid fa-scale-balanced"></i></div>
+                            <div class="metric-info">
+                                <span class="num">86%</span>
+                                <span class="lbl">Операционный маржинальный плюс</span>
+                            </div>
+                            <p class="card-text">Компания работает стабильно в плюс. Чистая операционная прибыль зафиксирована в 6 из 7 последних месяцев.</p>
+                        </div>
+                    </div>
+
+                    <!-- Ledger details -->
+                    <div class="glass-card ledger-card mt-6">
+                        <h3>Реестр контрактов и платежей (по факту на 30.04.2026)</h3>
+                        <div class="ledger-grid mt-4">
+                            <div class="ledger-item">
+                                <span class="ledger-label">Сумма всех контрактов (Booked)</span>
+                                <span class="ledger-value">€101 451</span>
+                            </div>
+                            <div class="ledger-item">
+                                <span class="ledger-label">Фактически оплачено (Cash In)</span>
+                                <span class="ledger-value text-success">€71 975</span>
+                            </div>
+                            <div class="ledger-item">
+                                <span class="ledger-label">Неоплаченный остаток (Receivable)</span>
+                                <span class="ledger-value text-accent">€29 476</span>
+                            </div>
+                            <div class="ledger-item">
+                                <span class="ledger-label">Средняя выручка (за 4 месяца)</span>
+                                <span class="ledger-value">~€10 000 / мес</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Cashflow & Forecast Chart -->
+                    <div class="glass-card chart-card mt-6">
+                        <div class="chart-header">
+                            <div>
+                                <h3>Финансовый план и прогноз на 12 месяцев</h3>
+                                <p class="card-desc">Прогноз международной компании без учета российского трека (июнь 2026 — май 2027)</p>
+                            </div>
+                            <div class="chart-toggle-buttons">
+                                <button class="btn btn-sm btn-chart active" id="btn-show-revenue">Выручка по каналам</button>
+                                <button class="btn btn-sm btn-chart" id="btn-show-cashflow">ДДС и баланс счета</button>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="tractionChart"></canvas>
+                        </div>
+                        <div class="chart-footer-metrics mt-4">
+                            <div class="chart-foot-metric">
+                                <span class="lbl">Прогноз выручки (12 мес.)</span>
+                                <span class="val">€511 000</span>
+                            </div>
+                            <div class="chart-foot-metric">
+                                <span class="lbl">Денежный остаток (май 2027)</span>
+                                <span class="val">€236 500</span>
+                            </div>
+                            <div class="chart-foot-metric">
+                                <span class="lbl">Прогноз MRR на май 2027</span>
+                                <span class="val">€22 000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Offer Section -->
+        <section id="offer" class="section offer-section">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-tag">Структура сделки</span>
+                    <h2>Два независимых трека возврата инвестиций</h2>
+                    <p class="section-desc">Вход инвестора разделен на два независимых контура для диверсификации рисков и обеспечения быстрого денежного потока</p>
+                </div>
+
+                <div class="grid-2 mt-6 fade-in-up delay-200">
+                    <!-- Track 1 Card -->
+                    <div class="glass-card track-card border-accent flex-col justify-between">
+                        <div>
+                            <div class="track-header">
+                                <div class="badge accent-bg">Трек 1: Международный</div>
+                                <h3>5% доли в Delaware C-Corp (США)</h3>
+                            </div>
+                            <p class="track-intro mt-4">Обеспечивает долю в глобальной капитализации компании и доступ к международным рынкам.</p>
+                            
+                            <ul class="styled-list mt-4">
+                                <li>
+                                    <span class="list-icon"><i class="fa-solid fa-chart-line"></i></span>
+                                    <div>
+                                        <strong>Оценка бизнеса</strong>
+                                        <p>Pre-money: €3.8M, Post-money: €4.0M. Сумма инвестиций: €200 000 за 5% акций.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                                    <div>
+                                        <strong>Консолидация IP</strong>
+                                        <p>Все права на основную технологическую платформу Altrp переводятся на баланс C-Corp до закрытия сделки.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fa-solid fa-seedling"></i></span>
+                                    <div>
+                                        <strong>Венчурный выход (Exit)</strong>
+                                        <p>Выход через M&A или продажу доли на раунде Series A (ориентир оценки €8M – €12M в 2027 г.).</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="track-footer mt-6">
+                            <span class="lbl">Юридическая структура</span>
+                            <span class="val text-accent">Delaware HoldCo + Serbia OpCo</span>
+                        </div>
+                    </div>
+
+                    <!-- Track 2 Card -->
+                    <div class="glass-card track-card border-violet flex-col justify-between">
+                        <div>
+                            <div class="track-header">
+                                <div class="badge violet-bg">Трек 2: Российский</div>
+                                <h3>50/50 прибыль новой компании в РФ</h3>
+                            </div>
+                            <p class="track-intro mt-4">Обособленный контур для российского B2B рынка с быстрым ежемесячным возвратом капитала.</p>
+                            
+                            <ul class="styled-list mt-4">
+                                <li>
+                                    <span class="list-icon"><i class="fa-solid fa-arrows-split-up-and-left"></i></span>
+                                    <div>
+                                        <strong>Операционное разделение</strong>
+                                        <p>Создается отдельное юрлицо. Инвестор контролирует фронт-офис в Москве (директор, продажи, финансы). AIMAX отвечает за бэк-офис (разработка, сервис).</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fa-solid fa-sack-dollar"></i></span>
+                                    <div>
+                                        <strong>50% от чистого дохода</strong>
+                                        <p>Вся чистая прибыль распределяется строго 50/50. AIMAX и инвестор покрывают свои операционные расходы из своих долей.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fa-solid fa-rocket"></i></span>
+                                    <div>
+                                        <strong>AI-консалтинг и автоматизация крупного бизнеса</strong>
+                                        <p>Помимо продуктов AIMAX, компания берет проекты по консалтингу и интеграциям через сильный нетворкинг инвестора в РФ.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="track-footer mt-6">
+                            <span class="lbl">Прогноз окупаемости</span>
+                            <span class="val text-violet">~€72 380 выплат за первые 9 месяцев</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Positioning Section -->
+        <section id="positioning" class="section positioning-section">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-tag">Анализ рынка</span>
+                    <h2>Почему оценка обоснована рынком</h2>
+                    <p class="section-desc">AIMAX запрашивает оценку значительно ниже европейских медиан, но существенно опережает аналоги по финансовым и продуктовым показателям</p>
+                </div>
+
+                <div class="grid-1-2 mt-6 fade-in-up delay-200">
+                    <div class="flex-col gap-4">
+                        <div class="glass-card info-mini-card">
+                            <h4>Европейские медианы AI (Seed/Pre-Seed)</h4>
+                            <p class="card-text mt-2">По данным PitchBook Q3 2025, медиана pre-money оценки AI стартапов составляет <strong>€5,6M</strong>. Наш раунд идет по оценке <strong>€3,8M pre-money</strong>, что дает инвестору значительную скидку на входе при наличии работающего бизнеса.</p>
+                        </div>
+                        
+                        <div class="glass-card info-mini-card">
+                            <h4>Высокие операционные показатели</h4>
+                            <p class="card-text mt-2">В отличие от типичных pre-seed стартапов, 50% которых не имеют выручки, а 80% — не имеют подписок (MRR), AIMAX имеет стабильную годовую выручку ~€120K, MRR €7 700 и работает в положительной операционной марже.</p>
+                        </div>
+
+                        <div class="glass-card info-mini-card">
+                            <h4>Ближайшие конкурентные аналоги</h4>
+                            <p class="card-text mt-2">Компании с аналогичной моделью Vertical AI для SMB, такие как <strong>RobosizeME</strong> (€2M Seed, оценка €10M) и <strong>Cassidy</strong> ($3.7M Seed, оценка €15M), привлекли капитал по оценкам в 2-4 раза выше нашей.</p>
+                        </div>
+                    </div>
+
+                    <!-- Valuation Comparison Chart -->
+                    <div class="glass-card chart-card flex-col justify-between">
+                        <div>
+                            <h3>Сравнение pre-money оценок ранних AI-стартапов (€ млн)</h3>
+                            <p class="card-desc">Показывает существенный дисконт и инвестиционную привлекательность AIMAX на текущем раунде</p>
+                        </div>
+                        <div class="chart-container" style="height: 300px;">
+                            <canvas id="positioningChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Allocation of Funds Section -->
+        <section id="allocation" class="section allocation-section">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-tag">Использование инвестиций</span>
+                    <h2>План распределения 200 000 €</h2>
+                    <p class="section-desc">Каждый евро направлен на масштабирование продаж в ЕС/США, усиление команды разработки и юридическую защиту интеллектуальной собственности</p>
+                </div>
+
+                <div class="grid-2 mt-6 fade-in-up delay-200">
+                    <!-- Allocation chart -->
+                    <div class="glass-card flex-col justify-center align-center">
+                        <div class="chart-container" style="height: 280px; width: 100%; position: relative;">
+                            <canvas id="allocationChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Allocation breakdown details -->
+                    <div class="glass-card flex-col justify-between">
+                        <h3>Детализация направлений расходов</h3>
+                        <div class="alloc-list mt-4">
+                            <div class="alloc-item">
+                                <div class="alloc-header-line">
+                                    <span class="alloc-dot dot-marketing"></span>
+                                    <span class="alloc-name">Маркетинг ЕС и США</span>
+                                    <span class="alloc-sum">50% (€100 000)</span>
+                                </div>
+                                <p class="card-text">Контент-маркетинг, SEO, платная реклама в Google Ads/LinkedIn, участие в профильных конференциях (Web Summit, GITEX) и PR.</p>
+                            </div>
+                            <div class="alloc-item mt-4">
+                                <div class="alloc-header-line">
+                                    <span class="alloc-dot dot-team"></span>
+                                    <span class="alloc-name">Расширение команды</span>
+                                    <span class="alloc-sum">30% (€60 000)</span>
+                                </div>
+                                <p class="card-text">Найм Sales-менеджеров с опытом B2B на рынке ЕС, 2 middle-разработчиков для снятия bottleneck с CTO и сотрудников поддержки клиентов.</p>
+                            </div>
+                            <div class="alloc-item mt-4">
+                                <div class="alloc-header-line">
+                                    <span class="alloc-dot dot-tech"></span>
+                                    <span class="alloc-name">Технологическое усиление</span>
+                                    <span class="alloc-sum">12.5% (€25 000)</span>
+                                </div>
+                                <p class="card-text">Локализация платформы Altrp под ЕС/США, обеспечение GDPR compliance, резерв на инфраструктуру API и подготовку к SOC 2.</p>
+                            </div>
+                            <div class="alloc-item mt-4">
+                                <div class="alloc-header-line">
+                                    <span class="alloc-dot dot-legal"></span>
+                                    <span class="alloc-name">Юридическое оформление</span>
+                                    <span class="alloc-sum">7.5% (€15 000)</span>
+                                </div>
+                                <p class="card-text">Регистрация C-Corp в Делавэре, EIN, открытие счетов, договор передачи IP-активов, регистрация ТМ в EU+US и учреждение РФ-компании.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Risk Mitigation Section -->
+        <section id="guarantees" class="section guarantees-section">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-tag">Безопасность сделки</span>
+                    <h2>Беспрецедентные гарантии для венчура</h2>
+                    <p class="section-desc">В отличие от классического венчура, где вероятность потери капитала 90%, в AIMAX предусмотрен тройной барьер защиты инвестиций</p>
+                </div>
+
+                <div class="grid-3 mt-6 fade-in-up delay-200">
+                    <!-- Guarantee 1 -->
+                    <div class="glass-card guarantee-card">
+                        <div class="guarantee-num">01</div>
+                        <h3>Базовая защита бизнесом</h3>
+                        <p class="card-text">Компания уже зарабатывает на собственных оборотах. MRR €7,700 и положительная маржа 6 из 7 месяцев гарантируют, что стартап не закроется из-за нехватки средств. В случае «венчурной зимы» мы перейдем в прибыльный bootstrap-режим.</p>
+                    </div>
+                    <!-- Guarantee 2 -->
+                    <div class="glass-card guarantee-card">
+                        <div class="guarantee-num">02</div>
+                        <h3>Материальный IP-актив</h3>
+                        <p class="card-text">Собственная разработка — no-code платформа Altrp с многолетней историей инвестиций — передается в C-Corp до закрытия сделки. Это твердый технологический актив на балансе компании, который имеет самостоятельную рыночную оценку.</p>
+                    </div>
+                    <!-- Guarantee 3 -->
+                    <div class="glass-card guarantee-card">
+                        <div class="guarantee-num">03</div>
+                        <h3>Российский кэш-флоу</h3>
+                        <p class="card-text">Российский трек со стартом в сентябре 2026 генерирует быстрый возврат инвестиций. Накопленный возврат инвестору по РФ-треку за первые 9 месяцев работы прогнозируется на уровне €72 380, что составляет 36% от всей суммы раунда.</p>
+                    </div>
+                </div>
+
+                <!-- Russian Track Projection & Risk mitigation table -->
+                <div class="grid-1-2 mt-6 fade-in-up delay-300">
+                    <!-- Left: Risks & Mitigations Table -->
+                    <div class="glass-card">
+                        <h3>Матрица управления рисками</h3>
+                        <div class="table-container mt-4">
+                            <table class="custom-table">
+                                <thead>
+                                    <tr>
+                                        <th>Критический риск</th>
+                                        <th>Вероятность</th>
+                                        <th>Механизм компенсации (Mitigation)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Series A crunch (нет раунда)</strong></td>
+                                        <td>Высокая</td>
+                                        <td>AIMAX выходит на безубыточность к декабрю 2026. Рост продолжается на собственные средства.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Концентрация клиентов (топ-3 = 72%)</strong></td>
+                                        <td>Средняя</td>
+                                        <td>Инвестиции в маркетинг снизят долю топ-3 до &lt;40% к маю 2027 за счет привлечения новых клиентов.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Уход ключевых фаундеров</strong></td>
+                                        <td>Низкая</td>
+                                        <td>Основатели подписывают вестинг (vesting) акций на 3 года с 1-year cliff как условие закрытия сделки.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Геополитический риск</strong></td>
+                                        <td>Средняя</td>
+                                        <td>Структурная изоляция: Delaware C-Corp — чистый международный контур, РФ компания — отдельное лицо.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Right: Russian Track Cashflow Return Chart -->
+                    <div class="glass-card chart-card flex-col justify-between">
+                        <div>
+                            <h3>Прогноз возврата инвестору по РФ-треку (50% прибыли, €)</h3>
+                            <p class="card-desc">Ежемесячные выплаты от операционной прибыли новой компании (сентябрь 2026 — май 2027)</p>
+                        </div>
+                        <div class="chart-container" style="height: 240px;">
+                            <canvas id="russiaTrackChart"></canvas>
+                        </div>
+                        <div class="chart-footer-metrics mt-2">
+                            <div class="chart-foot-metric">
+                                <span class="lbl">Выплата за 1-й мес (сен 26)</span>
+                                <span class="val">€2 350</span>
+                            </div>
+                            <div class="chart-foot-metric">
+                                <span class="lbl">Выплата за 9-й мес (май 27)</span>
+                                <span class="val">€14 100</span>
+                            </div>
+                            <div class="chart-foot-metric">
+                                <span class="lbl">Итого возврат за 9 мес.</span>
+                                <span class="val text-success">€72 380</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Timeline Section -->
+        <section id="roadmap" class="section roadmap-section">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-tag">План развития</span>
+                    <h2>Таймлайн: следующие шаги</h2>
+                    <p class="section-desc">План действий и расходования средств для достижения безубыточности и масштабирования</p>
+                </div>
+
+                <div class="timeline mt-6 fade-in-up delay-200">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- Step 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-cog"></i></div>
+                        <div class="timeline-content glass-card">
+                            <span class="time">Июнь – Август 2026</span>
+                            <h3>Подготовительный этап</h3>
+                            <p class="budget">Бюджет: ~35 000 €</p>
+                            <ul class="roadmap-list mt-2">
+                                <li>Открытие C-Corp в Делавэре (США) и регистрация компании в РФ.</li>
+                                <li>Юридическое оформление и передача прав на IP Altrp в холдинг C-Corp.</li>
+                                <li>Начало рекрутинга middle-разработчиков для разгрузки CTO.</li>
+                                <li>Текущая операционная деятельность покрывается из существующей выручки.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot active"><i class="fa-solid fa-rocket"></i></div>
+                        <div class="timeline-content glass-card active-item">
+                            <span class="time">Сентябрь – Декабрь 2026</span>
+                            <h3>Активный маркетинг и продажи</h3>
+                            <p class="budget">Бюджет: 30 000 € — 65 000 € / мес</p>
+                            <ul class="roadmap-list mt-2">
+                                <li>Запуск масштабных рекламных кампаний в ЕС и США (Google/LinkedIn Ads, контент-маркетинг).</li>
+                                <li>Найм Sales-менеджеров и специалистов по delivery на международный рынок.</li>
+                                <li>Старт выплат по российскому треку (сентябрь: инвестору возвращается €2 350).</li>
+                                <li>Выход на точку операционной безубыточности международной компании (декабрь 2026).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="timeline-content glass-card">
+                            <span class="time">Январь – Май 2027</span>
+                            <h3>Масштабирование и рост</h3>
+                            <p class="budget">Бюджет: окупаемость и прибыль</p>
+                            <ul class="roadmap-list mt-2">
+                                <li>Выход на стабильную чистую прибыль в международном контуре.</li>
+                                <li>Рост активных клиентов до 48 (из них 23 на recurring-подписке).</li>
+                                <li>Увеличение MRR в 2.9 раза до €22 000 (к маю 2027).</li>
+                                <li>Подготовка к раунду Series A с целевой оценкой €8M – €12M.</li>
+                                <li>Рост выплат инвестору по РФ-треку до €14 100 в месяц.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Footer / CTA Section -->
+        <section id="contacts" class="section contacts-section">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-tag">Команда и контакты</span>
+                    <h2>Готовы обсудить Term Sheet?</h2>
+                    <p class="section-desc">Свяжитесь с основателями проекта напрямую для согласования условий сделки</p>
+                </div>
+
+                <div class="grid-2 mt-6 fade-in-up delay-200">
+                    <!-- Left: Team details (Natalia is excluded) -->
+                    <div class="glass-card team-card flex-col justify-between">
+                        <div>
+                            <h3>Основатели AIMAX</h3>
+                            <div class="team-members mt-4">
+                                <div class="member-item">
+                                    <div class="member-avatar"><i class="fa-solid fa-user-tie"></i></div>
+                                    <div class="member-info">
+                                        <h4>Максим Тарасенко</h4>
+                                        <span class="member-role">CBDO, сооснователь</span>
+                                        <p class="card-text mt-2">Отвечает за развитие бизнеса, международные продажи и партнерскую сеть. 5+ лет опыта масштабирования B2B SaaS проектов.</p>
+                                    </div>
+                                </div>
+                                <div class="member-item mt-6">
+                                    <div class="member-avatar"><i class="fa-solid fa-laptop-code"></i></div>
+                                    <div class="member-info">
+                                        <h4>Евгений</h4>
+                                        <span class="member-role">CTO, сооснователь</span>
+                                        <p class="card-text mt-2">Главный разработчик и архитектор no-code платформы Altrp. 10+ лет опыта проектирования сложных AI/SaaS-решений для бизнеса.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vesting-note mt-6">
+                            <span class="note-icon"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                            <p><strong>Защита инвестора:</strong> Основатели подписывают соглашение о вестинге (vesting) акций на 3 года с клиффом 1 год, что гарантирует их долгосрочную вовлеченность.</p>
+                        </div>
+                    </div>
+
+                    <!-- Right: Contacts & Action Card -->
+                    <div class="glass-card contact-form-card flex-col justify-between">
+                        <div>
+                            <h3>Связь с проектом</h3>
+                            <p class="card-text mt-2">Вы можете написать нам на почту или связаться по телефону/Telegram. Мы готовы предоставить финансовую модель, аналитику рынка и проект Term Sheet.</p>
+                            
+                            <div class="contact-details mt-6">
+                                <div class="contact-line">
+                                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                                    <div>
+                                        <span class="lbl">Email CBDO:</span>
+                                        <a href="mailto:tarasenko.srb@gmail.com" class="val">tarasenko.srb@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="contact-line mt-4">
+                                    <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                                    <div>
+                                        <span class="lbl">Телефон / Telegram:</span>
+                                        <a href="tel:+381631741396" class="val">+381 63 174 13 96</a>
+                                    </div>
+                                </div>
+                                <div class="contact-line mt-4">
+                                    <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                                    <div>
+                                        <span class="lbl">Локация бэк-офиса:</span>
+                                        <span class="val">Белград, Сербия</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cta-downloads mt-6">
+                            <a href="AIMAX_Финплан_200K_21.05.xlsx" class="btn btn-lg btn-accent-glow w-100" download>
+                                <i class="fa-solid fa-file-excel"></i> Скачать финансовый план и аналитику
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer legal note -->
+        <footer class="footer-legal">
+            <p>© 2026 AIMAX. Все права защищены. Delaware C-Corp холдинговая структура. Предложение носит информационный характер и не является публичной офертой.</p>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
